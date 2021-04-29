@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <h4 class="text-center">Select a category</h4>
+            <select [(ngModel)]="selCatId" id="my-select">
+                <option *ngFor="let cat of categoryList"  [value]="cat.catID">
+                  {{cat.catName}}
+                </option>
+              </select>
+              <div>
+                <app-product [selectFromCategory]="selCatId"></app-product>
+              </div>
+        </div>
+    </div>
+</div>

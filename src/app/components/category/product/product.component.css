@@ -1,0 +1,79 @@
+.card {
+    padding: 15px;
+    overflow: hidden;
+    max-height: 466px;
+}
+.product-img {
+    margin: auto;
+    padding: 15px;
+    width: 225px;
+    height: 280px;
+    object-fit: contain;
+}
+.card-title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.card-text {
+    color: #898989;
+}
+.add-to-cart-btn {
+    background-color: #f47a23;
+    color: #fff;
+    width: -webkit-fill-available;
+}
+.sold_out {
+    top: 30px;
+    left: -65px;
+    color: #fff;
+    display: block;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .06em;
+    background-color: #A00;
+    padding: 0.5em 5em 20px 7em;
+    text-shadow: 0 0 0.75em #444;
+    box-shadow: 0 0 0.5em rgb(0 0 0 / 50%);
+    font: bold 19px/1.2em Arial, Sans-Serif;
+    -webkit-text-shadow: 0 0 0.75em #444;
+    -webkit-box-shadow: 0 0 0.5em rgb(0 0 0 / 50%);
+    -webkit-transform: rotate(-45deg) scale(0.75,1);
+    z-index: 10;
+}
+.sold_out:before {
+    content: 'Sold out';
+    top: 0;
+    left: -10px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin: 0px -4em;
+    transform: scale(0.7);
+    -webkit-transform: scale(0.7);
+    border: 2px rgba(255,255,255,0.7) dashed;
+}
+.modal-dialog {
+    max-width: 1000px;
+}
+.cart-items-no {
+    text-align: left;
+}
+.checkout-btn, .go-to-cart-btn, .new-address-btn {
+    background-color: #f47a23;
+    color: #fff;
+}
+.address-card .card-body {
+    text-align: left;
+}
+.address-card .card-body p {
+    color: #898989;
+}
+.wish-list {
+    overflow: auto;
+}
+.cart-img {    
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

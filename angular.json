@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "online-system-store"
+    }
+  },
+  "defaultProject": "online-system-store",
+  "cli": {
+    "analytics": false
+  }
 }

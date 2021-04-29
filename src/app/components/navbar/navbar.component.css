@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #f47a23;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.navbar-brand{
+    color: #fff;
+}
+.navbar .navbar-nav {
+    margin-left: auto;
+}
+.navbar .nav-item a{
+    display: grid;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    margin-right: 30px;
+}
+.log-out a {
+    color: #fff;
+}
+.log-out a:hover {
+    text-decoration: none;
+}
